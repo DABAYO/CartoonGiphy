@@ -1,0 +1,10 @@
+#title { 
+    font-family: 'Bangers', cursive;
+    text-align: center;
+    font-size: 120px;
+    font-weight: bold;  
+}
+
+#cartoonGifs {
+    display: inline-block;
+}
