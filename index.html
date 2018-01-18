@@ -1,45 +1,41 @@
-<!DOCTYPE <!DOCTYPE html>
+<!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="utf-8" />
     <title>Cartoonapalooza!</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+        crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
     <link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
 </head>
+
 <body>
     <div class="jumbotron">
         <h1 id="title">Cartoonapalooza</h1>
     </div>
     <div class="container-fluid" id="cartoon-buttons">
-        <button type="button" class="btn btn-primary" cartoon="Adventure Time">Adventure Time</button>
-        <button type="button" class="btn btn-primary" cartoon="Dexter's Laboratory">Dexter's Laboratory</button>
-        <button type="button" class="btn btn-primary" cartoon="The Fairly OddParents">The Fairly OddParents</button>
-        <button type="button" class="btn btn-primary" cartoon="Pinky and the Brain">Pinky and the Brain</button>
-        <button type="button" class="btn btn-primary" cartoon="Animaniacs">Animaniacs</button>
-        <button type="button" class="btn btn-primary" cartoon="Hey Arnold!">Hey Arnold!</button>
-        <button type="button" class="btn btn-primary" cartoon="Foster's Home For Imaginary Friends">Foster's Home For Imaginary Friends</button>
-        <button type="button" class="btn btn-primary" cartoon="The Jetsons">The Jetsons</button>
-        <button type="button" class="btn btn-primary" cartoon="The PowerPuff Girls">The PowerPuff Girls</button>
-        <button type="button" class="btn btn-primary" cartoon="Popeye the Sailor">Popeye the Sailor</button><br><br>
+    </div>
+    <div class="col-xs-offset-8 col-md-4">
+        <form id="addCartoon">
+            <label for="cartoonInput">Look up a cartoon and add a button!</label>
+            <input type="text" id="cartoonInput">
+            <input type="button" class="btn btn-success" id="submit" value="Submit">
+        </form>
+    </div>
     <div class="row">
-        <div class="col-md-8", "container-fluid" id="cartoonGifs">
+        <div class="col-md-10" id="cartoonGifs">
         </div>
 
-        <div class="col-md-4">
-            <form id="addCartoon">
-                <label for="cartoonInput">Look up a cartoon and add a button!</label>
-                <input type="text" id="cartoonInput">
-                <input type="button" class="btn btn-success" id="submit" value="Submit">
-            </form>
-        </div>
+
     </div>
 
-    
+
     <!-- <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script> -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="script.js"></script>
-</div>>
+    </div>
 </body>
+
 </html>
